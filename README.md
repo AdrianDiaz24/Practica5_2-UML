@@ -30,36 +30,37 @@
 
 He utilizado Dia para la generación del diagrama UML y he contrastado esta herramienta con Lucidchart. A continuación, presento una breve explicación de ambas herramientas y las razones por las que me decanté por Dia:
 
-Dia
+- Dia
 
-  Ventajas:
+  - Ventajas:
   
-  Gratuita y de código abierto, sin necesidad de suscripciones.
-  Ofrece una amplia variedad de formas UML y otras figuras estándar.
-  Soporta formatos de exportación populares como PNG, SVG y PDF.
-  Ligera y fácil de instalar.
-  Inconvenientes:
+    -  Gratuita y de código abierto, sin necesidad de suscripciones.
+    -  Ofrece una amplia variedad de formas UML y otras figuras estándar.
+    -  Soporta formatos de exportación populares como PNG, SVG y PDF.
+    -  gera y fácil de instalar.
   
-  Interfaz de usuario algo desactualizada y menos intuitiva.
-  Menor integración con herramientas colaborativas en la nube.
-  Menor cantidad de plantillas prediseñadas.
+  - Inconvenientes:
+  
+    - Interfaz de usuario algo desactualizada y menos intuitiva.
+    - Menor integración con herramientas colaborativas en la nube.
+    - Menor cantidad de plantillas prediseñadas.
 
-Lucidchart
+- Lucidchart
 
-  Ventajas:
+  - Ventajas:
   
-  Interfaz moderna, intuitiva y fácil de usar.
-  Colaboración en tiempo real con otros usuarios.
-  Amplia gama de plantillas listas para usar.
-  Integración con Google Workspace, Microsoft y otras plataformas.
+    - Interfaz moderna, intuitiva y fácil de usar.
+    - Colaboración en tiempo real con otros usuarios.
+    - Amplia gama de plantillas listas para usar.
+    - Integración con Google Workspace, Microsoft y otras plataformas.
   
-  Inconvenientes:
+  - Inconvenientes:
   
-  Modelo freemium, con restricciones en la versión gratuita.
-  Requiere conexión a Internet para acceder a todas sus funciones.
-  Dependencia del navegador y del entorno web.
+    - Modelo freemium, con restricciones en la versión gratuita.
+    - Requiere conexión a Internet para acceder a todas sus funciones.
+    - Dependencia del navegador y del entorno web.
 
-Conclusión
+**Conclusión**
  
   Elegí Dia debido a su carácter gratuito, independencia de conexión a Internet y capacidad para exportar en múltiples         formatos. Aunque Lucidchart ofrece una experiencia de usuario más moderna y colaborativa, su modelo de suscripción y         limitaciones en la versión gratuita hicieron que no fuera la opción más adecuada para un proyecto sin requerimientos         complejos.
 
@@ -68,23 +69,23 @@ Conclusión
 ## c) Una explicación sobre la conversión del diagrama UML al código.
 
 
-Clases y atributos:
+- Clases y atributos:
 
-Se crea las clases del diagrama en kotlin con todos sus atributos
+  - Se crea las clases del diagrama en kotlin con todos sus atributos
 
-Relaciones entre clases:
+- Relaciones entre clases:
 
-Para reflejar las relaciones hacemos que las clases pidan a su vez otras clases para construirse
+  - Para reflejar las relaciones hacemos que las clases pidan a su vez otras clases para construirse
 
-La clase Cliente tiene una lista de pedidos (val pedidos = mutableListOf<Pedido>()), lo que refleja la relación de un cliente con muchos pedidos.
+  - La clase Cliente tiene una lista de pedidos (val pedidos = mutableListOf<Pedido>()), lo que refleja la relación de un        cliente con muchos pedidos.
 
-Enumeraciones:
+- Enumeraciones:
 
-Las clases EstadoPedido y FormaPago se han representado como enums en el código. 
+  - Las clases EstadoPedido y FormaPago se han representado como enums en el código. 
 
-Métodos:
+- Métodos:
 
-Se crean en las clases los metodos como funciones dentro de estas
+  - Se crean en las clases los metodos como funciones dentro de estas
 
 
 
