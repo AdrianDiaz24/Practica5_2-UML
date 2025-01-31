@@ -62,3 +62,29 @@ Lucidchart
 Conclusión
  
   Elegí Dia debido a su carácter gratuito, independencia de conexión a Internet y capacidad para exportar en múltiples         formatos. Aunque Lucidchart ofrece una experiencia de usuario más moderna y colaborativa, su modelo de suscripción y         limitaciones en la versión gratuita hicieron que no fuera la opción más adecuada para un proyecto sin requerimientos         complejos.
+
+
+
+## c) Una explicación sobre la conversión del diagrama UML al código.
+
+
+Clases y atributos:
+
+Se crea las clases del diagrama en kotlin con todos sus atributos
+
+Relaciones entre clases:
+
+Para reflejar las relaciones hacemos que las clases pidan a su vez otras clases para construirse
+
+La clase Cliente tiene una lista de pedidos (val pedidos = mutableListOf<Pedido>()), lo que refleja la relación de un cliente con muchos pedidos.
+
+Enumeraciones:
+
+Las clases EstadoPedido y FormaPago se han representado como enums en el código. 
+
+Métodos:
+
+Se crean en las clases los metodos como funciones dentro de estas
+
+
+
